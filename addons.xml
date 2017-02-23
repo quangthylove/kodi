@@ -1,5 +1,27 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon
+  id="plugin.video.kodi4vn.launcher"
+  version="5.3.9"
+  name="[COLOR red]HUEHD*[/COLOR]PLUS - PLAY"
+  provider-name="thietkeweb30s.org">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="0.0.7" />
+    <import addon="plugin.video.youtube" version="4.4.1" />
+    <import addon="script.module.requests" version="1.0" />
+    <import addon="service.kodi4vn.maintenance" version="0.1" />
+    <import addon="script.module.httplib2" version="0.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>thietkeweb30s.org</summary>
+    <description>Watch hundreds of Vietnamesse and English channels from viettv24.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>	
 <addon id="plugin.video.thietkeweb30s.org.movie"
        version="2.6.0"
        name="[COLOR red]HUEHD*[/COLOR]PLUS"
@@ -26,31 +48,7 @@
 	    <disclaimer lang="en">[COLOR ffff0000]Data được chia sẻ trên internet. Chúng tôi không chịu mọi trách nhiệm pháp lý.[/COLOR]</disclaimer>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon
-  id="plugin.video.kodi4vn.launcher"
-  version="5.3.9"
-  name="[COLOR red]HUEHD*[/COLOR]PLUS - PLAY"
-  provider-name="thietkeweb30s.org">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.xbmcswift2" version="0.0.7" />
-    <import addon="plugin.video.youtube" version="4.4.1" />
-    <import addon="script.module.requests" version="1.0" />
-    <import addon="service.kodi4vn.maintenance" version="0.1" />
-    <import addon="script.module.httplib2" version="0.1" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-  <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>thietkeweb30s.org</summary>
-    <description>Watch hundreds of Vietnamesse and English channels from viettv24.com</description>
-    <platform>all</platform>
-  </extension>
 </addon>	
-	
 <addon 
 	id="repository.thietkeweb30s.org" 
 	version="1.1.8" 
