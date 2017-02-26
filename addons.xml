@@ -777,7 +777,7 @@
 		<platform>all</platform>
 		<language>en</language>
 		<license>GNU General Public License - v2</license>
-		<source>http://code.thietkeweb30s.org/thietkeweb30s.org-master/thietkeweb30s.org-master/zips</source>
+		<source>https://raw.githubusercontent.com/quangthylove/kodi/master/</source>
 		<email>thietkeweb30s.org@gmail.com</email>
     </extension>
 </addon>
