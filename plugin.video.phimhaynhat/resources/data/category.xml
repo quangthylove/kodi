@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8">
+<a server="MMN" category="search" mode="88" color="red" icon="search.png">Tìm kiếm trên toàn bộ cụm & Các Kho phim</a>
+<a server="MMN" category="hdviet.com" mode="22" color="darkorange" icon="hdviet.png">Kho phim trên hdviet.com</a>
+<a server="MMN" category="fptplay.net" mode="7" color="orangered" icon="fptplay.png">Kho phim trên fptplay.net</a>
+<a server="MMN" category="hayhaytv.vn" mode="23" color="tomato" icon="hayhaytv.png">Kho phim trên hayhaytv.vn</a>
+<a server="MMN" category="bilutv.com" mode="36" color="hotpink" icon="bilutv.png">Kho phim trên bilutv.com</a>
+<a server="MMN" category="phimmoi.net" mode="24" color="ghostwhite" icon="phimmoi.png">Kho phim trên phimmoi.net</a>
+<a server="MMN" category="hdonline.vn" mode="30" color="turquoise" icon="hdonline.png">Kho phim trên hdonline.vn</a>
+<a server="MMN" category="phim14.net" mode="39" color="chartreuse" icon="phim14.png">Kho phim trên phim14.net</a>
+<a server="MMN" category="kenh88.com" mode="26" color="cyan" icon="kenh88.png">Kho phim trên kenh88.com </a>
+<a server="MMN" category="phimdata.com" mode="27" color="FFDB4BDA" icon="phimdata.png">Kho phim trên phimdata.com</a>
+<a server="MMN" category="phimsot.com" mode="29" color="orangered" icon="phimsot.png">Kho phim trên phimsot.com</a>
+<a server="MMN" category="phim47.com" mode="28" color="springgreen" icon="phim47.png">Kho phim trên phim47.com</a>
+<a server="MMN" category="phimbathu.com" mode="43" color="lightgray" icon="phimbathu.png">Kho phim trên phimbathu.com </a>
+<a server="MMN" category="kphim.tv" mode="33" color="lightgreen" icon="kphim.png">Kho phim trên kphim.tv </a>
+<a server="MMN" category="phimnhanh.com" mode="35" color="chartreuse" icon="phimnhanh.png">Kho phim trên phimnhanh.com </a>
+<a server="MMN" category="dangcaphd.com" mode="18" color="yellow" icon="dangcaphd.png">Kho phim trên dangcaphd.com </a>
+<a server="MMN" category="phim.media" mode="40" color="orange" icon="phim.png">Kho phim trên phim.media </a> 
+<a server="MMN" category="hdsieunhanh.com" mode="44" color="orangered" icon="hdsieunhanh.png">Kho phim trên hdsieunhanh.com </a> 
+<a server="MMN" category="vungtv.com" mode="57" color="FF00FA9A" icon="vungtv.png">Kho phim trên vungtv.com </a> 
+<a server="MMN" category="imovies.vn" mode="48" color="orange" icon="imovies.png">Kho phim trên imovies.vn </a> 
+<a server="MMN" category="vietsubhd.com" mode="54" color="cyan" icon="vietsubhd.png">Kho phim trên vietsubhd.com </a> 
+<a server="MMN" category="mphim.net" mode="55" color="deepskyblue" icon="mphim.png">Kho phim trên mphim.net </a> 
+<a server="MMN" category="biphim.com" mode="58" color="FFBA55D3" icon="biphim.png">Kho phim trên biphim.com </a> 
+<a server="MMN" category="banhtv.com" mode="59" color="FFF08080" icon="banhtv.png">Kho phim trên banhtv.com </a> 
+<a server="MMN" category="anime47.com" mode="37" color="lime" icon="anime47.png">Kho phim trên anime47.com</a>
+<a server="MMN" category="tvhay.org" mode="41" color="gold" icon="tvhay.png">Kho phim trên tvhay.org</a>
+<a server="MMN" category="fcine.net" mode="25" color="magenta" icon="fcine.png">Kho phim trên fcine.net</a>
+<a server="MMN" category="fsharefilm.com" mode="60" color="FFF08080" icon="fsharefilm.png">Kho phim trên fsharefilm.com</a>
+<a server="MMN" category="4share.vn" mode="06" color="blue" icon="4share.png">Kho phim trên 4share.vn</a>
+<a server="MMN" category="kenhphimbo.net" mode="61" color="yellow" icon="kenhphimbo.png">Kho phim trên kenhphimbo.net</a>
+<a server="MMN" category="anivn.com" mode="62" color="FF8FAE22" icon="anivn.png">Kho phim trên anivn.com</a>
+<a server="MMN" category="animetvn.com" mode="63" color="FFD0C101" icon="animetvn.png">Kho phim trên animetvn.com</a>
+
+<a server="GGS" category="xshare.vn" mode="13" color="lime" icon="isearch.png">Search trên dữ liệu đã cập nhật về máy</a>
+<a server="GGS" category="search" mode="88" color="lime" icon="gsearch.png">Google Search [COLOR orange]Các servers khác[/COLOR]</a>
+<a server="GGS" category="fshare.vn" mode="02" color="lime" icon="gsearch.png">Google Search [COLOR gold]Fshare.vn/Vaphim.com[/COLOR]/[COLOR orangered]Fcine.net[/COLOR]/[COLOR FF1E90FF]taiphimhd.net[/COLOR]</a>
+<a server="GGS" category="4share.vn" mode="02" color="lime" icon="gsearch.png">Google Search [COLOR blue]4share.vn / Ifile.tv[COLOR]</a>
+<a server="GGS" category="tenlua.vn" mode="02" color="lime" icon="gsearch.png">Google Search [COLOR fuchsia]TenLua.vn...[/COLOR]</a>
+<a server="GGS" category="hdvietnam.com" mode="02" color="lime" icon="gsearch.png">Google Search [COLOR crimson]hdvietnam.com[/COLOR] / [COLOR blue]taiphimhd.com[/COLOR] / [COLOR chartreuse]i-max.vn[/COLOR]</a>
+<a server="GGS" category="fshare.vn" mode="90" color="lime" icon="fshare.png">Search[/COLOR] Trực tiếp trên [COLOR gold]Fshare Following (VIP/Free acc)</a>
+<a server="GGS" category="taifile.net" mode="13" color="lime" icon="vaphim.png">Search[/COLOR] Trực tiếp trên [COLOR gold]Taifile.Net...</a>
+<a server="GGS" category="vaphim.com" mode="13" color="lime" icon="vaphim.png">Search[/COLOR] Trực tiếp trên [COLOR gold]Vaphim.com...</a>
+<a server="GGS" category="fcine.net" mode="25" color="lime" icon="fcine.png">Search (full)[/COLOR] Trực tiếp trên [COLOR orangered]Fcine.net...</a>
+<a server="GGS" category="ifile.tv" mode="13" color="lime" icon="ifiletv.png">Search[/COLOR] Trực tiếp trên [COLOR blue]Ifile.tv...</a>
+<a server="GGS" category="4share.vn" mode="13" color="lime" icon="4share.png">Search[/COLOR] Trực tiếp trên [COLOR blue]4share.vn...</a>
+<a server="GGS" category="tenlua.vn" mode="13" color="lime" icon="tenlua.png">Search[/COLOR] Trực tiếp trên [COLOR fuchsia]TenLua.vn...</a>
+<a server="GGS" category="hdvietnam.com" mode="13" color="lime" icon="hdvietnam.png">Search[/COLOR] Trực tiếp trên [COLOR crimson]hdvietnam.com...</a>
+
+<a server="VPH" category="capnhat" mode="20" color="gold" icon="vaphim.png">Cập nhật danh mục Vaphim</a>
+<a server="VPH" category="chonloc" mode="93" color="gold" icon="vaphim.png">VaPhim.com chọn lọc</a>
+<a server="VPH" category="phimmoi" mode="04" color="gold" icon="vaphim.png">Phim mới nhất</a>
+<a server="VPH" category="xemnhieu" mode="05" color="gold" icon="vaphim.png">Phim được xem nhiều nhất</a>
+<a server="VPH" category="collection" mode="92" color="gold" icon="vaphim.png">Các Bộ Sưu Tập</a>
