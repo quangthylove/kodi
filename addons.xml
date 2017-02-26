@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-
 <addon id="plugin.audio.thietkeweb30s.org.khosachnoi"
        version="1.0.0"
        name="[COLOR blue]*Kho Sách Nói*[/COLOR]"
@@ -1958,5 +1957,4 @@
 		<source>https://github.com/tomer953/skin.phenomenal</source>
 	</extension>
 </addon>
-
 </addons>
