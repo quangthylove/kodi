@@ -1,0 +1,7 @@
+<settings>
+	<category label="Tài Khn Fshare">
+		<setting id="username" type="text" label="User name" default="huehdplus@gmail.com"/>
+		<setting id="password" type="text" label="Password" default="0905360044" option="hidden"/>
+		<setting id="logoutf" type="bool" label="Cho phép t? Logout kh?i Acc VIP (yes/no)" default="true" visible="false"/>
+	</category>
+</settings>

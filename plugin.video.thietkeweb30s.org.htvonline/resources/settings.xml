@@ -1,0 +1,3 @@
+<settings>
+	<setting label="information" type="text" id="temp_patch" default="advertisement" visible="false"/>
+</settings>
