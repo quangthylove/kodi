@@ -72,7 +72,7 @@
 
 <addon
   id="plugin.video.HieuHien.vn"
-  version="2.0.2"
+  version="5.0.2"
   name="[B][COLOR red]Thietkeweb30s.org[/COLOR][/B]"
   provider-name="Thietkeweb30s.org">
   <requires>
@@ -337,7 +337,7 @@
 
 <addon
   id="plugin.video.4vn.fptplay"
-  version="1.6.5"
+  version="1.6.6"
   name="[COLOR red]*thietkeweb30s.org*[/COLOR]Play"
   provider-name="thietkeweb30s.org">
   <requires>
@@ -480,15 +480,19 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.phimhaynhat" name="[COLOR lime][B]Phim[/COLOR][COLOR yellow]Hay[/COLOR][COLOR cyan]Nhat[/B][/COLOR" version="3.5.2.0" provider-name="THIETKEWEB30S">
+<addon id="plugin.video.phimhaynhat" name="[COLOR lime][B]Phim[/COLOR][COLOR yellow]Hay[/COLOR][COLOR cyan]Nhat[/B][/COLOR]" version="3.5.2.9" provider-name="THIETKEWEB30S">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.video.F4mProxy" optional="true"/>
 		<import addon="script.module.youtube.dl" optional="true"/>
+	        <import addon="plugin.video.thietkeweb30s.org.xemphimmienphi" version="0.1" />
+	        <import addon="plugin.video.thietkeweb30s.org.vtvgo" version="1.1" />
+	        <import addon="plugin.video.kodi4vn.xomgiaitri" version="9.9.32" />
 		<import addon="script.module.six"/>
 		<import addon="script.module.pil"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="xshare.py">
+        <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>thietkeweb30s.org - phimhaynhat.org</summary>
@@ -530,7 +534,7 @@
 </addon>
 
 <addon id="plugin.video.thietkeweb30s.org.moviesplay"
-       version="2.6.6"
+       version="2.7.0"
        name="[COLOR red]HUEHD*[/COLOR]PLUS"
        provider-name="Thietkeweb30s.org">
     <requires>
@@ -607,7 +611,7 @@
 </addon>
 
 <addon id="plugin.video.thietkeweb30s.org.fshare"
-       version="1.0.9"
+       version="1.1.3"
        name="[COLOR ffff0000]***THIETKEWEB30S.ORG***[/COLOR]Kho Phim Fshare"
        provider-name="thiekeweb30s.org member">
   <requires>
@@ -731,6 +735,64 @@
     <summary>Top Shows</summary>
     <description> 
     </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.thietkeweb30s.org.vtvgo"
+  version="1.1"
+  name="[COLOR yellow]VTV GO[/COLOR]"
+  provider-name="Thietkeweb30s.org">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="1.3.1" />
+    <import addon="script.module.requests" version="1" />
+  </requires>
+  <extension point="xbmc.python.module" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>VTV GO</summary>
+    <description>Watch free vtvgo.vn (Vietnamese)</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.thietkeweb30s.org.xemphimmienphi"
+  version="0.1"
+  name="[COLOR magenta]XemPhimMienPhi.net[/COLOR]"
+  provider-name="Thietkeweb30s.org">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="1.3.1" />
+    <import addon="plugin.video.youtube" version="4.4.1" />
+    <import addon="script.module.requests" version="1" />
+    <import addon="script.module.urlresolver" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.module" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>XemPhimMienPhi</summary>
+    <description>Watch free XemPhimMienPhi.net (Vietnamese) Videos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.kodi4vn.xomgiaitri"
+  version="9.9.32"
+  name="*[COLOR yellow]XomGiaiTri.com[/COLOR]"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="1" />
+    <import addon="script.module.urlresolver" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.module" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>xomiaitri.com</summary>
+    <description>Watch free xomiaitri.com (Vietnamese) Videos</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -885,7 +947,7 @@
 
 <addon
   id="resource.language.vi_vn"
-  version="5.0.7"
+  version="5.0.8"
   name="Vietnamese"
   provider-name="Team Kodi">
   <requires>
@@ -1069,14 +1131,14 @@
 	<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="plugin.video.thietkeweb30s.org.movie" version="2.5.9" />
 		<import addon="plugin.video.kodi4vn.launcher" version="5.3.9" />
-		<import addon="plugin.video.thietkeweb30s.org.moviesplay" version="2.6.6" />
+		<import addon="plugin.video.thietkeweb30s.org.moviesplay" version="2.7.0" />
 		<import addon="plugin.video.vietmediaF" version="5.1.3" />
-		<import addon="plugin.video.phimhaynhat" version="3.5.2.0" />
-		<import addon="plugin.video.4vn.fptplay" version="1.6.5" />
-		<import addon="plugin.video.thietkeweb30s.org.fshare" version="1.0.9" />
+		<import addon="plugin.video.phimhaynhat" version="3.5.2.9" />
+		<import addon="plugin.video.4vn.fptplay" version="1.6.6" />
+		<import addon="plugin.video.thietkeweb30s.org.fshare" version="1.1.3" />
 		<import addon="plugin.video.thietkeweb30s.sctv" version="2.6" />
 		<import addon="plugin.video.thietkeweb30s.org.zingtv" version="1.0.4" />
-		<import addon="plugin.video.HieuHien.vn" version="2.0.2" />
+		<import addon="plugin.video.HieuHien.vn" version="5.0.2" />
 		<import addon="service.kodi4vn.maintenance" version="0.9" />
 		<import addon="service.subtitles.phude" version="1.2.6" />
 		<import addon="plugin.video.thietkeweb30s.org.truyenhinhiptv" version="1.0.4" />
@@ -1085,7 +1147,7 @@
 		<import addon="plugin.video.f4mTester" version="5.6.2" />
 		<import addon="plugin.video.thietkeweb30s.org.phatam" version="2.0.2" />
 	        <import addon="plugin.video.thietkeweb30s.phim60s" version="0.2" />
-		<import addon="resource.language.vi_vn" version="5.0.7" />
+		<import addon="resource.language.vi_vn" version="5.0.8" />
 	</requires>
 	<extension point="xbmc.addon.repository"
 		name="Thietkeweb30s.org Add-on's Repository">
@@ -1094,7 +1156,7 @@
 		<datadir zip="true">http://code.thietkeweb30s.org/thietkeweb30s.org-master/thietkeweb30s.org-master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install addon from Hieuhien.vn's repository</summary>
+		<summary lang="en">Install addon from Thietkeweb30s.org's repository</summary>
 		<description lang="en">[COLOR red][B]thietkeweb30s.org[/COLOR]-[COLOR lime]Repository tập hợp các addon và repository giải trí online trên XBMC - Kodi[/B][/COLOR]</description>
 		<disclaimer lang="en">Mọi nội dung được lấy từ Internet vì vậy chúng tôi không chịu trách nhiệm về chất lượng cũng như sự ổn định</disclaimer>
 		<email>honhakhanhquynh@gmail.com</email>
@@ -1124,14 +1186,14 @@
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="plugin.video.thietkeweb30s.org.movie" version="2.5.9" />
 		<import addon="plugin.video.kodi4vn.launcher" version="5.3.9" />
-		<import addon="plugin.video.thietkeweb30s.org.moviesplay" version="2.6.6" />
+		<import addon="plugin.video.thietkeweb30s.org.moviesplay" version="2.7.0" />
 		<import addon="plugin.video.vietmediaF" version="5.1.3" />
-		<import addon="plugin.video.phimhaynhat" version="3.5.2.0" />
-		<import addon="plugin.video.4vn.fptplay" version="1.6.5" />
-		<import addon="plugin.video.thietkeweb30s.org.fshare" version="1.0.9" />
+		<import addon="plugin.video.phimhaynhat" version="3.5.2.9" />
+		<import addon="plugin.video.4vn.fptplay" version="1.6.6" />
+		<import addon="plugin.video.thietkeweb30s.org.fshare" version="1.1.3" />
 		<import addon="plugin.video.thietkeweb30s.sctv" version="2.6" />
 		<import addon="plugin.video.thietkeweb30s.org.zingtv" version="1.0.4" />
-		<import addon="plugin.video.HieuHien.vn" version="2.0.2" />
+		<import addon="plugin.video.HieuHien.vn" version="5.0.2" />
 		<import addon="service.kodi4vn.maintenance" version="0.9" />
 		<import addon="service.subtitles.phude" version="1.2.6" />
 		<import addon="plugin.video.thietkeweb30s.org.truyenhinhiptv" version="1.0.4" />
@@ -1140,7 +1202,7 @@
 		<import addon="plugin.video.thietkeweb30s.org.phatam" version="2.0.2" />
 	        <import addon="plugin.video.thietkeweb30s.phim60s" version="0.2" />
 		<import addon="plugin.video.f4mTester" version="5.6.2" />
-		<import addon="resource.language.vi_vn" version="5.0.7" />
+		<import addon="resource.language.vi_vn" version="5.0.8" />
 		<import addon="repository.thietkeweb30s.org" version="2.0.1" />
 	</requires>
 	<extension point="xbmc.addon.repository"
