@@ -1124,7 +1124,7 @@
 
 <addon 
 	id="repository.thietkeweb30s.org" 
-	version="2.0.1" 
+	version="4.1.8" 
 	name="[COLOR red][B]THIET[/B][/COLOR][COLOR blue][B]KE[/B][/COLOR][COLOR yellow][B]WEB[/B][/COLOR][COLOR lime][B]30S[/B][/COLOR].[COLOR orange][B]ORG[/B][/COLOR][B] Repository[/B]"
 	provider-name="thietkeweb30s.org">
 	<requires>
